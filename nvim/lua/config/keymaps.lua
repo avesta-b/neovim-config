@@ -72,3 +72,6 @@ vim.keymap.set("n", "<leader>cn", ":cn<CR>", { desc = "next item" })
 vim.keymap.set("n", "<leader>cp", ":cp<CR>", { desc = "prev item" })
 -- vim.keymap.set("n", "<leader>cqq", ":ccl<CR>", { desc = "close" })
 vim.keymap.set("n", "<leader>co", ":copen<CR>", { desc = "open" })
+
+-- highlight visual helpers
+vim.keymap.set("n", "<leader>nh", ":noh<cr>", { desc = "clear highlight" })
