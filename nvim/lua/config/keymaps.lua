@@ -43,6 +43,7 @@ vim.keymap.set("n", "<leader>fc", builtin.commands, {})
 vim.keymap.set("n", "<leader>ft", builtin.current_buffer_fuzzy_find, {})
 vim.keymap.set("n", "<leader>fk", builtin.keymaps, { desc = 'keymaps' })
 vim.keymap.set("n", "<leader>fd", builtin.diagnostics, { desc = 'diagnostics' })
+vim.keymap.set("n", "<leader>fr", builtin.resume, { desc = "resume" })
 
 -- NvimTree
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>", {}) -- open/close
