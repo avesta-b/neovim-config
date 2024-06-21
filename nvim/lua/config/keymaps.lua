@@ -66,3 +66,9 @@ vim.api.nvim_set_keymap('n', '<S-Tab>', '<<_', { noremap = true, silent = true }
 vim.api.nvim_set_keymap('i', '<S-Tab>', '<C-D>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('v', '<Tab>', '>gv', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('v', '<S-Tab>', '<gv', { noremap = true, silent = true })
+
+-- quickfix list
+vim.keymap.set("n", "<leader>cn", ":cn<CR>", { desc = "next item" })
+vim.keymap.set("n", "<leader>cp", ":cp<CR>", { desc = "prev item" })
+-- vim.keymap.set("n", "<leader>cqq", ":ccl<CR>", { desc = "close" })
+vim.keymap.set("n", "<leader>co", ":copen<CR>", { desc = "open" })
