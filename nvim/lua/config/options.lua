@@ -50,7 +50,7 @@ opt.relativenumber = true -- Enable relative line numbers
 opt.number = true         -- Enable absolute line numbers
 
 -- Hide cmd line
-opt.cmdheight = 0      -- more space in the neovim command line for displaying messages
+-- opt.cmdheight = 0      -- more space in the neovim command line for displaying messages
 
 opt.mouse = "a"        -- allow the mouse to be used in neovim
 opt.number = true      -- set numbered lines
