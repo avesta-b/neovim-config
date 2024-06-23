@@ -54,6 +54,7 @@ vim.keymap.set("t", "<Esc><Esc>", "<C-\\><C-n>:NeotermToggle<CR>", { desc = "exi
 -- Buffer Navigation
 vim.keymap.set("n", "<leader>bl", ":bnext<CR>", { desc = "next" })
 vim.keymap.set("n", "<leader>bh", ":bprevious<CR>", { desc = "previous" })
+-- vim.keymap.set("n", "<leader>bd", ":bdelete<CR>", { desc = "previous" })
 vim.keymap.set("n", "L", ":bnext<CR>", { desc = "next" })
 vim.keymap.set("n", "H", ":bprevious<CR>", { desc = "previous" })
 vim.keymap.set("n", "<leader>bb", ":BufferLinePick<CR>", { desc = "pick goto" })
